@@ -1,0 +1,182 @@
+/* Device - Tab */
+
+@media screen and (min-width:601px ) and (max-width:900px)
+{
+
+.img-name
+{
+    flex-wrap:wrap-reverse;
+    text-align: center;
+}
+
+.name
+{
+    width:25rem;
+}
+
+.img
+{
+    height:20rem;
+    width:25rem;
+}
+
+.name-line-2
+{
+  font-size:2rem;
+}
+.button-group
+{
+    margin-left:1.5rem;
+}
+.desktop-button
+{
+    display: flex;
+    gap:1rem;
+}
+
+/* Projects */
+.project-container
+{
+    grid-template-columns:1fr;   
+}
+
+/* About */
+.para1
+{
+    margin: 0 5rem 5rem 5rem;
+}
+
+/* Contact */
+.contact
+{
+    flex-wrap: wrap;
+    margin-left: 0rem;
+}
+#progress
+{
+  
+  margin-left:22rem;
+  margin-top:-3rem;
+}
+
+
+}
+
+/* Device - Phone */
+
+@media screen and (max-width:600px)
+{
+
+.nav-link
+{
+    display:none;
+}
+.img-name
+{
+    flex-wrap:wrap-reverse;
+    text-align: center;
+    justify-content: center;
+    gap:0rem;
+    margin-bottom:9rem;
+}
+    
+.name
+{
+    width:22rem;
+    margin-top:-7rem;
+}
+    
+.img
+{
+    height:18rem;
+    width:22rem;
+}
+    
+.name-line-2
+{
+    font-size:2rem;
+}
+.button-group
+{
+    justify-content: space-around;
+}
+.desktop-button
+{
+    /* margin-left:0.5rem; */
+    display: none;
+}
+.mobile-icon
+{
+    display: block;
+}
+    
+/* Skills */
+
+.icon-container
+{
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.heading
+{
+    margin-left:0.4rem;
+    font-size:1.5rem;
+}
+
+/* Projects */
+.project-container
+{
+    grid-template-columns:1fr;   
+}
+.coverpic
+{
+    width:20rem;
+    height:10rem;
+}
+.moreinfo,.chip
+{
+    width:20rem;
+}
+
+#info
+{
+  margin-top:0.3rem;
+}
+
+/* About */
+.para1
+{
+  margin: 0 1rem 5rem 1rem;
+}
+
+/* Contact */
+.contact
+{
+    flex-wrap: wrap;
+    margin-left: 0rem;
+}
+
+.contact-img
+{
+  height:10rem;
+  width: 20rem;
+}
+
+.textField
+{
+    width: 20rem;
+}
+
+#progress
+{
+  margin-left:11.5rem;
+  margin-top:-3rem;
+}
+/* footer */
+.footer
+{
+  margin:2rem 0 4rem 0;
+}
+
+}

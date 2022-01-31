@@ -223,7 +223,7 @@ function Project({
             accept="image/*"
             id="contained-button-file"
             multiple
-            type="file" autoWidth
+            type="file" 
             onChange={(e) => {
               setThumbnail(e.target.files[0]);
               setProjectThumbnail(e.target.files[0]);

@@ -295,13 +295,6 @@ a:hover
 }
 
 
-
-/* .profile
-{
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-} */
 .ProfileDetails
 {
   display: grid;
@@ -317,20 +310,12 @@ a:hover
 
 .projectcontainer
 {
-  /* display: flex; */
-  flex-direction: column;
-  align-items: center;
-
   margin-left:7rem;
-  /* align-items: flex-start; */
-  /* margin-left: auto; */
 }
 
 .empeducontainer
 {
-  /* display: flex;
-  justify-content: center;
-  gap:5rem; */
+  
   display: grid;
     grid-template-columns: 1fr 1fr;
     justify-items: center;
@@ -355,8 +340,6 @@ a:hover
 }
 
 
-
-
 .homeimg
 {
   width:25rem;
@@ -372,6 +355,7 @@ a:hover
   align-items: center;
   justify-content: space-around;
   gap:3rem;
+  flex-wrap: wrap;
 }
 
 .template .box

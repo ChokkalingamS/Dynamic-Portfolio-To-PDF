@@ -83,7 +83,7 @@ export function Forms() {
       <br />
       </div>
 
-      <div className='skill container'>
+      <div className='skill-container'>
         <h4>About</h4>
         <br/>
       <About setProfileDescription={setProfileDescription} />

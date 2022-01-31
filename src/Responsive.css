@@ -59,6 +59,51 @@
   margin-top:-3rem;
 }
 
+.profiletextfield,.projecttextfield,.abouttextfield,.employmenttextfield,.educationtextfield
+{
+  width:25rem;
+}
+.ProfileDetails
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap:2rem;
+}
+.skill-container
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.empeducontainer
+{
+ 
+  display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap:2rem;
+}
+.educationcontainer
+{
+    margin-left: auto;
+    margin-right:-12rem;
+}
+.savebutton
+{
+    margin-left: 2rem !important;
+}
+.projectcontainer
+{
+  margin-left:10rem;
+}
+.submitbutton
+{
+  
+  margin-left:17rem !important;
+  width: 12rem;
+}
+
+
 
 }
 
@@ -178,5 +223,57 @@
 {
   margin:2rem 0 4rem 0;
 }
+
+.profiletextfield,.projecttextfield,.abouttextfield,.employmenttextfield,.educationtextfield
+{
+  width:19rem;
+}
+.ProfileDetails
+{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap:2rem;
+}
+.skill-container
+{
+    margin-left: auto;
+    margin-right: auto;
+}
+.empeducontainer
+{
+ 
+  display: grid;
+    grid-template-columns: 1fr;
+    justify-items: center;
+    gap:2rem;
+}
+.educationcontainer
+{
+    margin-left: auto;
+    margin-right:-12rem;
+}
+.savebutton
+{
+    margin-left: 2rem !important;
+}
+.projectcontainer
+{
+  margin-left:2.5rem;
+}
+.submitbutton
+{
+  /* margin-bottom: 5rem !important; */
+  margin-left:7rem !important;
+  width: 12rem;
+}
+.homeimg
+{
+    width:17rem;
+    height:20rem;
+    margin-left:-2rem;
+    margin-top: -0rem;
+}
+
 
 }

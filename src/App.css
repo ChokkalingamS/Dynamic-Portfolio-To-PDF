@@ -153,11 +153,11 @@ a:hover
   grid-template-columns:1fr 1fr;
   justify-items: center;
   gap:2rem; 
-  margin-bottom:3rem;
 }
 .ind-project
 {
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
+    margin-top: 3rem;
 }
 .coverpic
 {
